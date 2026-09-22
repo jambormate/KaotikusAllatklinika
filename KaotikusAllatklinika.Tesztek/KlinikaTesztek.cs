@@ -6,7 +6,6 @@ namespace KaotikusAllatklinika.Tesztek
     [TestFixture]
     public class KlinikaTesztek
     {
-        /*
         [Test]
         public void Kisallat_AlapértelmezettAggodalomÉsNevValidacio()
         {
@@ -32,7 +31,7 @@ namespace KaotikusAllatklinika.Tesztek
         public void Kisallat_VeszelyesAllapot_AkkorTrueHaAggodalom_legalabb_80()
         {
             var allat = new Kisallat("Rex", 3, 50);
-        allat.AggodalomSzint = 79;
+            allat.AggodalomSzint = 79;
             Assert.That(allat.Veszelyes, Is.False);
 
             allat.AggodalomSzint = 80;
@@ -60,6 +59,7 @@ namespace KaotikusAllatklinika.Tesztek
             Assert.That(kutya.AggodalomSzint, Is.EqualTo(10)); // 20 - 10 (base)
             Assert.That(kutya.AkkumulatorToltottseg, Is.EqualTo(70)); // 50 + 20 (extra)
         }
+        /*
 
         [Test]
         public void HipnoMacska_KezelesKapot_GyogyitasCsokkenEsAggodalomNo()
