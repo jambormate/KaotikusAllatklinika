@@ -59,7 +59,6 @@ namespace KaotikusAllatklinika.Tesztek
             Assert.That(kutya.AggodalomSzint, Is.EqualTo(10)); // 20 - 10 (base)
             Assert.That(kutya.AkkumulatorToltottseg, Is.EqualTo(70)); // 50 + 20 (extra)
         }
-        /*
 
         [Test]
         public void HipnoMacska_KezelesKapot_GyogyitasCsokkenEsAggodalomNo()
@@ -118,6 +117,7 @@ namespace KaotikusAllatklinika.Tesztek
             Assert.That(papagaj.EgeszsegSzint, Is.EqualTo(70));
             Assert.That(papagaj.ManaSzint, Is.EqualTo(15)); // 30 - 15
         }
+        /*
         */
     }
 }

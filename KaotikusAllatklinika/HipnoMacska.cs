@@ -35,5 +35,11 @@ namespace KaotikusAllatklinika
         {
             Console.WriteLine($"{Nev} mélyen a szemedbe néz... (A táljába akarod önteni az összes jutalomfalatot).");
         }
+        public override void KezelesKapot(int gyógyításMértéke)
+        {
+            int tenylegesGyogyitas = gyógyításMértéke - hipnoEro;
+            EgeszsegSzint += tenylegesGyogyitas;
+            AggodalomSzint += 5;
+        }
     }
 }
